@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 echo "Please enter user."
 read a
 usermod -aG $a adm
