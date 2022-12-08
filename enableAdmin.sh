@@ -1,18 +1,16 @@
 echo "Please enter user."
-
-a = whoami
-
-usermod -aG %user adm
-usermod -aG %user dialout
-usermod -aG %user cdrom
-usermod -aG %user sudo
-usermod -aG %user audio
-usermod -aG %user video
-usermod -aG %user plugdev
-usermod -aG %user games
-usermod -aG %user users
-usermod -aG %user input
-usermod -aG %user netdev
-usermod -aG %user gpio
-usermod -aG %user i2c
-usermod -aG %user spi
+read a
+usermod -aG %a adm
+usermod -aG %a dialout
+usermod -aG %a cdrom
+usermod -aG %a sudo
+usermod -aG %a audio
+usermod -aG %a video
+usermod -aG %a plugdev
+usermod -aG %a games
+usermod -aG %a users
+usermod -aG %a input
+usermod -aG %a netdev
+usermod -aG %a gpio
+usermod -aG %a i2c
+usermod -aG %a spi
