@@ -1,6 +1,6 @@
 echo "Please enter user."
 
-read user
+a = whoami
 
 usermod -aG %user adm
 usermod -aG %user dialout
